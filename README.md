@@ -43,15 +43,11 @@ In the end, what we got was a lot of tables containing empty rows, because every
 
 What we were able to maintain constant at the county level: 
 
-No. of claims filed
-No. of claims paid
-Amount paid per year
-No. of denials
+<i> No. of claims filed, No. of claims paid, Amount paid per year, No. of denials</i>
 
 At the state level, more variables held constant, including in addition to the above:
 
-Denials based on contributory conduct
-Funeral payouts
+<i>Denials based on contributory conduct, Funeral payouts </i>
 
 For each state we analyzed, we gathered data from the years 2010 through 2017. But to do a  state-by-state comparison, we had to limit ourselves to figures from 2013 to 2015, where we had the most complete data sets. 
 
@@ -166,10 +162,8 @@ We had every intention of showing a scatter plot and trend curve that would’ve
 We hope some other outlets with more resources are able to take the data that we’ve compiled so far and run with it. At NationSwell, we don’t have the resources to dedicate years to an investigation (it was hard enough to work for five months on this one). And we also don’t have the full data reporting hub that is needed to fully dig into this properly. That said, we’ve made all of the data we collected publicly available for download on this GitHub, in the hopes that this knowledge can further a conversation about assumptions of guilt and victims’ rights in the U.S. 
 
 <h3>Reporter:</h3>
-Joseph Darius Jaafari
-joseph@nationswell.com
+Joseph Darius Jaafari, joseph@nationswell.com
 
 <h3>Data Scientist:</h3>
-Malorie Hughes
-mhughes@npr.org
+Malorie Hughes, mhughes@npr.org
 
