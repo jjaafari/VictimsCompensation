@@ -104,17 +104,20 @@ Coefficients:
 <tr>
      <th>(Intercept) </th>                
      <th> <-2.699431  </th> 		
-     <th>0.147517 	-18.299  	</th>
+    <th>0.147517 	</th>
+     <th>-18.299  	</th>
      <th>< 2e-16 ***</th>
-                
-percent_nonwhite0.003899   		0.001280   	3.045  		0.00289 ** 
-factor(State)Louisiana          	0.334160   		0.126859   	2.634 		 0.00961 ** 
-factor(State)Texas              	0.721242  	 	0.089263   	8.080 		7.53e-13 ***
-log(total_processed_all_years)  1.039189   		0.021546 	48.231  	< 2e-16 ***
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-    
+</tr>
+    <tr>              
+<th>percent_nonwhite0.003899</th>   		<th>0.001280</th>   	<th>3.045</th>  		<th>0.00289 ** </th>
+</tr>
+<tr>
+    <th>factor(State)Louisiana</tr>         	<t> 0.334160 </th>   		<t> 0.126859 </th>   	<th> 2.634</th>  		 <th> 0.00961 ** </th> 
+</tr>
+<tr> 
+    <th>log(total_processed_all_years)</th>  <th>1.039189</th>   		<th>0.021546</th> 	<th>48.231 </th> <th>	< 2e-16 ***</th>  
 </table>
+<h3>Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 </h3>
 
 Residual standard error: 0.2659 on 114 degrees of freedom
 Multiple R-squared:  0.9633,	Adjusted R-squared:  0.962 
