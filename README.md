@@ -93,14 +93,28 @@ Min       	1Q   		Median       	3Q      		Max
 -0.79475 	-0.15894  	0.02306  	0.14006  	0.68173 
 
 Coefficients:
-                                		Estimate Std. 		Error 		t value 		Pr(>|t|)    
-(Intercept)                  		-2.699431   		0.147517 	-18.299  	< 2e-16 ***
-percent_nonwhite               	 0.003899   		0.001280   	3.045  		0.00289 ** 
+<table>
+<tr> 
+    <th> </th>
+    <th>Estimate Std. 	</th>	
+    <th>Error 	</th>	
+    <th>t value </th>		
+    <th>Pr(>|t|)  </th>
+    </tr>
+<tr>
+     <th>(Intercept) </th>                
+     <th> <-2.699431  </th> 		
+     <th>0.147517 	-18.299  	</th>
+     <th>< 2e-16 ***</th>
+                
+percent_nonwhite0.003899   		0.001280   	3.045  		0.00289 ** 
 factor(State)Louisiana          	0.334160   		0.126859   	2.634 		 0.00961 ** 
 factor(State)Texas              	0.721242  	 	0.089263   	8.080 		7.53e-13 ***
 log(total_processed_all_years)  1.039189   		0.021546 	48.231  	< 2e-16 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+    
+</table>
 
 Residual standard error: 0.2659 on 114 degrees of freedom
 Multiple R-squared:  0.9633,	Adjusted R-squared:  0.962 
