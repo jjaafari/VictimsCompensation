@@ -93,31 +93,73 @@ Min       	1Q   		Median       	3Q      		Max
 -0.79475 	-0.15894  	0.02306  	0.14006  	0.68173 
 
 Coefficients:
+Tables Generator
+LaTeX Tables
+HTML Tables
+Text Tables
+Markdown Tables
+MediaWiki Tables
+Contact
+
+ 
+HTML Table Generator 16 
+File 
+Edit 
+Table 
+Column 
+Row 
+Cell 
+Help 
+Show Example
+       Serif font (generic)   Default font size         Theme
+ GenerateDo not generate CSSCompact mode
+Result (click "Generate" to refresh) Copy to clipboard
 <table>
-<tr> 
-    <th> </th>
-    <th>Estimate Std. 	</th>	
-    <th>Error 	</th>	
-    <th>t value </th>		
-    <th>Pr(>|t|)  </th>
-    </tr>
-<tr>
-     <th>(Intercept) </th>                
-     <th> <-2.699431  </th> 		
-    <th>0.147517 	</th>
-     <th>-18.299  	</th>
-     <th>< 2e-16 ***</th>
-</tr>
-    <tr>              
-<th>percent_nonwhite0.003899</th>   		<th>0.001280</th>   	<th>3.045</th>  		<th>0.00289 ** </th>
-</tr>
-<tr>
-    <th>factor(State)Louisiana</tr>         	<t> 0.334160 </th>   		<t> 0.126859 </th>   	<th> 2.634</th>  		 <th> 0.00961 ** </th> 
-</tr>
-<tr> 
-    <th>log(total_processed_all_years)</th>  <th>1.039189</th>   		<th>0.021546</th> 	<th>48.231 </th> <th>	< 2e-16 ***</th>  
+  <tr>
+    <th></th>
+    <th>Estimate Std.</th>
+    <th>Error</th>
+    <th>t value</th>
+    <th>Pr(&gt;|t|)</th>
+  </tr>
+  <tr>
+    <td>(Intercept)</td>
+    <td>-2.699431</td>
+    <td>0.147517</td>
+    <td>-18.299</td>
+    <td>&lt; 2e-16 ***</td>
+  </tr>
+  <tr>
+    <td>percent_nonwhite</td>
+    <td>0.003899</td>
+    <td>0.001280</td>
+    <td>3.045</td>
+    <td>0.00289 **</td>
+  </tr>
+  <tr>
+    <td>factor(State)Louisiana</td>
+    <td>0.334160</td>
+    <td>0.126859</td>
+    <td>2.634</td>
+    <td>0.00961 **</td>
+  </tr>
+  <tr>
+    <td>factor(State)Texas</td>
+    <td>0.721242</td>
+    <td>0.089263</td>
+    <td>8.080</td>
+    <td>7.53e-13 ***</td>
+  </tr>
+  <tr>
+    <td>log(total_processed_all_years)</td>
+    <td>1.039189</td>
+    <td>0.021546</td>
+    <td>48.231</td>
+    <td>&lt; 2e-16 ***</td>
+  </tr>
 </table>
-<h3>Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 </h3>
+
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 0.2659 on 114 degrees of freedom
 Multiple R-squared:  0.9633,	Adjusted R-squared:  0.962 
