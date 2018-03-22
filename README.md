@@ -93,27 +93,6 @@ Min       	1Q   		Median       	3Q      		Max
 -0.79475 	-0.15894  	0.02306  	0.14006  	0.68173 
 
 Coefficients:
-Tables Generator
-LaTeX Tables
-HTML Tables
-Text Tables
-Markdown Tables
-MediaWiki Tables
-Contact
-
- 
-HTML Table Generator 16 
-File 
-Edit 
-Table 
-Column 
-Row 
-Cell 
-Help 
-Show Example
-       Serif font (generic)   Default font size         Theme
- GenerateDo not generate CSSCompact mode
-Result (click "Generate" to refresh) Copy to clipboard
 <table>
   <tr>
     <th></th>
